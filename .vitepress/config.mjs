@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   srcDir: 'docs',
+  base: '/my-vitepress-site/',
   title: 'Xphinx Collection',
   description: 'Dedicated Collection for Everything or Anything I Found Fascinating.',
-  base: '/my-vitepress-site/',
   
   themeConfig: {
     nav: [
@@ -47,7 +47,7 @@ export default defineConfig({
       label: 'On This Page'
     },
     editLink: {
-      pattern: 'https://github.com/YOUR-GITHUB-USERNAME/my-vitepress-site/edit/main/docs/:path',
+      pattern: 'https://github.com/Xphinx-X/my-vitepress-site/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
     footer: {
