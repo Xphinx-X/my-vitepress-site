@@ -16,13 +16,13 @@ hero:
     <h3>📖 Interesting Reads</h3>
     <p>Articles, books, and ideas that spark curiosity.</p>
   </a>
+  <a class="card" href="./collections/educational">
+    <h3>📚 Educational</h3>
+    <p>Courses, learning platforms, and free textbooks.</p>
+  </a>
   <a class="card" href="./collections/streaming">
     <h3>📺 Streaming</h3>
     <p>Movies, TV shows, anime, and live TV.</p>
-  </a>
-  <a class="card" href="./about">
-    <h3>ℹ️ About</h3>
-    <p>Learn more about the Xphinx Collection.</p>
   </a>
   <a class="card" href="./collections/adblocking">
     <h3>🛡️ Adblocking</h3>
@@ -39,5 +39,17 @@ hero:
   <a class="card" href="./collections/music">
     <h3>🎵 Music</h3>
     <p>Streaming, downloads, and players.</p>
+  </a>
+  <a class="card" href="./collections/linux">
+    <h3>🐧 Linux</h3>
+    <p>Distros, ricing, and open-source goodness.</p>
+  </a>
+  <a class="card" href="./collections/useful-sites">
+    <h3>🌐 Useful Sites</h3>
+    <p>Web tools, search engines, and internet utilities.</p>
+  </a>
+  <a class="card" href="./about">
+    <h3>ℹ️ About</h3>
+    <p>Learn more about the Xphinx Collection.</p>
   </a>
 </div>

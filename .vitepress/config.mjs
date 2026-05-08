@@ -10,8 +10,8 @@ export default defineConfig({
     nav: [
       { text: '🏠 Home', link: '/' },
       { text: '🛠️ Tools', link: '/collections/tools' },
-      { text: '📖 Reads', link: '/collections/reads' },
       { text: '📺 Streaming', link: '/collections/streaming' },
+      { text: '🐧 Linux', link: '/collections/linux' },
       { text: 'ℹ️ About', link: '/about' }
     ],
     sidebar: [
@@ -27,11 +27,14 @@ export default defineConfig({
         items: [
           { text: '🛠️ Cool Tools', link: '/collections/tools' },
           { text: '📖 Interesting Reads', link: '/collections/reads' },
+          { text: '📚 Educational', link: '/collections/educational' },
           { text: '📺 Streaming', link: '/collections/streaming' },
           { text: '🛡️ Adblocking', link: '/collections/adblocking' },
           { text: '🤖 AI Tools', link: '/collections/ai' },
           { text: '🕹️ Gaming', link: '/collections/gaming' },
-          { text: '🎵 Music', link: '/collections/music' }
+          { text: '🎵 Music', link: '/collections/music' },
+          { text: '🐧 Linux', link: '/collections/linux' },
+          { text: '🌐 Useful Sites', link: '/collections/useful-sites' }
         ]
       }
     ],
@@ -39,7 +42,7 @@ export default defineConfig({
       provider: 'local'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/' },
+      { icon: 'github', link: 'https://github.com/Xphinx-X/my-vitepress-site' },
       { icon: 'discord', link: 'https://discord.com/' }
     ],
     outline: {
