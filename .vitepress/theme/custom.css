@@ -1,0 +1,52 @@
+:root {
+  --vp-c-brand-1: #ff4f4f;
+  --vp-c-brand-2: #ff6b6b;
+  --vp-c-brand-3: #ff3333;
+  --vp-c-brand-soft: rgba(255, 79, 79, 0.14);
+}
+
+.dark {
+  --vp-c-brand-1: #ff6b6b;
+  --vp-c-brand-2: #ff4f4f;
+  --vp-c-brand-3: #ff3333;
+  --vp-c-brand-soft: rgba(255, 79, 79, 0.14);
+}
+
+/* Clean Grid Cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 1.5rem;
+}
+
+.grid a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.grid .card {
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  transition: all 0.2s ease;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.grid .card:hover {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-bg-alt);
+}
+
+.grid .card h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+.grid .card p {
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 0;
+}
